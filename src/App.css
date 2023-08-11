@@ -114,7 +114,7 @@ img {
   inset: 0;
   background-color: var(--first-color);
   transform: translateX(100%);
-  z-index: 1;
+  z-index: 1made navbar and home area;
   transition: all 0.3s ease-out;
 }
 
