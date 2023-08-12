@@ -17,10 +17,10 @@ function App() {
     <BrowserRouter>
     <Navbar /> 
      <Routes>
-       <Route path='Site-portifolio' indexgit element={<Home/>}/>
-       <Route path='about' element={< About/>}/>
-       <Route path='portifolio' element={< Portifolio/>}/>
-       <Route path='contact' element={<Contact/>}/>
+       <Route path='Site-portifolio' index element={<Home/>}/>
+       <Route path='Site-portifolio' element={< About/>}/>
+       <Route path='Site-portifolio' element={< Portifolio/>}/>
+       <Route path='Site-portifolio' element={<Contact/>}/>
      </Routes>
     </BrowserRouter>
     </>
