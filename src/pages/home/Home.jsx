@@ -7,10 +7,10 @@ function Home() {
   return (
     <div>
       <section className="home section grid">
-        <img src={Profile} alt="" className="home__img" />
+        <img src={Profile} alt="" className="home__img"  />
 
         <div className="home__content">
-          <div className="home__data">
+          <div className="home__data" >
             <h1 className="home__title">
               <span> Allan Tavares</span> FullStack
             </h1>
@@ -23,7 +23,7 @@ function Home() {
               desenvolvi uma plataforma de gerenciamento de tarefas que integra
               essas habilidades. Estou constantemente buscando desafios para
               aprimorar minhas habilidades e contribuir para soluções
-              inovadoras.
+              inovadoras. xxxxxxxxxxxxxxxx
             </p>
             <Link to="/about" className="button">
               More About me{" "}
@@ -32,6 +32,9 @@ function Home() {
               </span>
             </Link>
           </div>
+        </div>
+        <div className="color__block">
+          
         </div>
       </section>
     </div>
