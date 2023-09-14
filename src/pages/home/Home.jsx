@@ -23,10 +23,10 @@ function Home() {
               desenvolvi uma plataforma de gerenciamento de tarefas que integra
               essas habilidades. Estou constantemente buscando desafios para
               aprimorar minhas habilidades e contribuir para soluções
-              inovadoras. xxxxxxxxxxxxxxxx
+              inovadoras.
             </p>
             <Link to="/about" className="button">
-              More About me{" "}
+              Leia sobre min
               <span className="button__icon">
                 <FaArrowRight />
               </span>

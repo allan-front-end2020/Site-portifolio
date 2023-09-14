@@ -65,6 +65,15 @@ ul {
   list-style: none;
 }
 
+span {
+  color: var(--first-color);
+}
+svg {
+  color: currentColor;
+  font-size: 33px;
+  font-size: 22px;
+}
+
 a {
   text-decoration: none;
 }
@@ -78,7 +87,6 @@ textarea {
 
 img {
   max-width: 100%;
-  background-color: black;
 }
 
 /****************** reusable **************/
@@ -110,13 +118,18 @@ img {
   border-radius: 35px;
   font-family: var(--second-font);
   font-size: var(--small-font-size);
-  font-weight: var(--weight-500);
+  font-weight: var(--weight-700);
   position: relative;
   overflow: hidden;
   transition: all 0.25s ease-in-out;
 }
 .button:hover {
   color: var(--text-white-color);
+
+}
+.button:hover svg{
+  color: var(--text-white-color);
+
 }
 
 .button::before {
@@ -135,11 +148,11 @@ img {
 
 .button__icon {
   position: absolute;
-  inset-block: -2px;
+  inset-block: -1px;
   right: 0;
   width: 55px;
   border-radius: 50%;
-  color: var(--text-white);
+  
   font-size: var(--large-font-size);
   text-align: center;
   line-height: 60px;

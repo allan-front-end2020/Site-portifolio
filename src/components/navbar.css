@@ -21,7 +21,7 @@
 
 .nav__icon,
 .nav__name {
-  color: var(--title-color);
+  color: var(--text-white-color);
   font-size: 24px;
 }
 .nav__name {
@@ -90,6 +90,7 @@
   .nav__icon {
     font-size: 20px;
     margin-inline: auto;
+    color: var(--title-color);
     
   }
   .nav__name {
@@ -109,7 +110,7 @@
   }
   .nav__link:hover .nav__name{
     right: 27px;
-    color: var(--text-white);
+    color: var(--text-white-color) ;
     opacity: 1;
     visibility: visible;
     transition: all 0.3s ease;
@@ -118,9 +119,9 @@
 
   .nav__link:hover,
   .active-nav {
-    background-color: var(--first-color);
+    background-color: var(--first-color) ;
   }
   .nav__link:hover .nav__icon, .active-nav .nav__icon{
-    color:var(--text-white)
+    color:var(--text-white-color)
   }
 }
