@@ -6,12 +6,14 @@ import Home from "./pages/home/Home";
 import About from "./pages/about/About";
 import Portifolio from "./pages/portifolio/Portifolio";
 import Contact from "./pages/contact/Contact";
+import Themes from "./components/Themes";
 
 function App() {
   return (
     <>
       <BrowserRouter>
         <Navbar  />
+        <Themes />
         <Routes>
           <Route  exact path="/" index element={<Home />} />
           <Route path="/Site-portifolio/about" element={<About />} />

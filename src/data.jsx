@@ -411,64 +411,64 @@ export const portfolio = [
   },
 ];
 
-// export const themes = [
-//   {
-//     id: 1,
-//     img: Theme1,
-//     color: 'hsl(252, 35%, 51%)',
-//   },
+export const themes = [
+  {
+    id: 1,
+    img: Theme1,
+    color: 'hsl(252, 35%, 51%)',
+  },
 
-//   {
-//     id: 2,
-//     img: Theme2,
-//     color: 'hsl(4, 93%, 54%)',
-//   },
+  {
+    id: 2,
+    img: Theme2,
+    color: 'hsl(4, 93%, 54%)',
+  },
 
-//   {
-//     id: 3,
-//     img: Theme3,
-//     color: 'hsl(271, 76%, 53%)',
-//   },
+  {
+    id: 3,
+    img: Theme3,
+    color: 'hsl(271, 76%, 53%)',
+  },
 
-//   {
-//     id: 4,
-//     img: Theme4,
-//     color: 'hsl(225, 73%, 57%)',
-//   },
+  {
+    id: 4,
+    img: Theme4,
+    color: 'hsl(225, 73%, 57%)',
+  },
 
-//   {
-//     id: 5,
-//     img: Theme5,
-//     color: 'hsl(43, 74%, 49%)',
-//   },
+  {
+    id: 5,
+    img: Theme5,
+    color: 'hsl(43, 74%, 49%)',
+  },
 
-//   {
-//     id: 6,
-//     img: Theme6,
-//     color: 'hsl(339, 81%, 66%)',
-//   },
+  {
+    id: 6,
+    img: Theme6,
+    color: 'hsl(339, 81%, 66%)',
+  },
 
-//   {
-//     id: 7,
-//     img: Theme7,
-//     color: 'hsl(80, 61%, 50%)',
-//   },
+  {
+    id: 7,
+    img: Theme7,
+    color: 'hsl(80, 61%, 50%)',
+  },
 
-//   {
-//     id: 8,
-//     img: Theme8,
-//     color: 'hsl(19, 96%, 52%)',
-//   },
+  {
+    id: 8,
+    img: Theme8,
+    color: 'hsl(19, 96%, 52%)',
+  },
 
-//   {
-//     id: 9,
-//     img: Theme9,
-//     color: 'hsl(88, 65%, 43%)',
-//   },
+  {
+    id: 9,
+    img: Theme9,
+    color: 'hsl(88, 65%, 43%)',
+  },
 
-//   {
-//     id: 10,
-//     img: Theme10,
-//     color: 'hsl(42, 100%, 50%)',
-//   },
-// ];
+  {
+    id: 10,
+    img: Theme10,
+    color: 'hsl(42, 100%, 50%)',
+  },
+];

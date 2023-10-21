@@ -9,12 +9,19 @@
 .contacts__description {
   font-size: var(--small-font-size);
   line-height: 1.6;
-  margin: 34px 3px;
+  margin: 3px 3px 50px 3px;
 }
 .contact__description,
 .contact__info .info__item {
   margin-bottom: 20px;
 }
+.contact__social-link-svg {
+  margin-bottom: -4px;
+  color: currentColor;
+  font-size: 33px;
+  font-size: 22px;
+}
+
 
 .contact__info .info__item {
   display: flex;
@@ -70,17 +77,16 @@
   font-size: var(--small-font-size);
   transition: all 0.3s ease;
 }
-.form__control:focus{
-    border-color: var(--first-color);
+.form__control:focus {
+  border-color: var(--first-color);
 }
 
-.textarea{
-    resize: none;
-    height: 160px;
+.textarea {
+  resize: none;
+  height: 160px;
 }
 
-.contact__button-icon{
-    font-size: var(--h3-font-size);
-    line-height: 64px;
-
+.contact__button-icon {
+  font-size: var(--h3-font-size);
+  line-height: 64px;
 }
