@@ -5,11 +5,14 @@ import { FaCog } from "react-icons/fa";
 import { BsSun, BsMoon } from "react-icons/bs";
 import "./themes.css";
 
+ let name = "allan tavare"
+
 const getStorageColor = () => {
   let color = "hsl(252, 35% , 51%)";
   if (localStorage.getItem("color")) {
     color = localStorage.getItem("color");
   }
+
 
   return color;
 };
