@@ -37,21 +37,21 @@ export const links = [
 
   {
     id: 2,
-    name: "About",
+    name: "Sobre",
     icon: <FaUser className="nav__icon" />,
     path: "/Site-portifolio/about",
   },
 
   {
     id: 3,
-    name: "Portfolio",
+    name: "Portfólio",
     icon: <FaFolderOpen className="nav__icon" />,
     path: "/Site-portifolio/portifolio",
   },
 
   {
     id: 4,
-    name: "Contact",
+    name: "Contatos",
     icon: <FaEnvelopeOpen className="nav__icon" />,
     path: "/Site-portifolio/contact",
   },
@@ -150,9 +150,9 @@ export const resume = [
     id: 1,
     category: "experience",
     icon: <FaBriefcase />,
-    year: "2022-07 2023-04 ",
+    year: "Setembro de 2022 - Março de 2023 ",
     title: "Analista de sistema <span> Global Hitss</span>",
-    desc: "Como responsável por manter e melhorar o código em React e Vue, ganhei experiência em projetos de grande porte com muitos usuários. Lidar com a manutenção me ajudou a otimizar o código existente, enquanto a criação de novas funcionalidades impulsionou minha criatividade e habilidades de resolução de problemas. Trabalhar em projetos com alta demanda de usuários me ensinou sobre escalabilidade e eficiência. Colaborar com equipes multidisciplinares refinou minhas habilidades de comunicação e análise de feedback"
+    desc: "Responsável por manter e melhorar os códigos em, React e Vue, ganhei experiência em projetos de grande porte com muitos usuários. Lidar com  manutenção me ajudou a otimizar o código existente , enquanto a criação de novas funcionalidades impulsionou minha criatividade e habilidade de resolução de problemas. Trabalhar em projetos com alta demanda de usuários me ensinou sobre escalabilidade e eficiência . Colaborar com equipes multidisciplinares refinou minhas habilidades de comunicação e análise de feedback"
   },
 
   {
@@ -161,7 +161,7 @@ export const resume = [
     icon: <FaBriefcase />,
     year: "2023-04 - Trabalhando",
     title: "Desenvolvedor Front-end <span> Web Station  </span>",
-    desc: " desafiador e gratificante, permitindo-me atuar em diversas áreas e desenvolver um conjunto variado de habilidades. Além disso, a comunicação direta com os clientes foi fundamental para entender suas necessidades e traduzi-las em especificações técnicas, fortalecendo tanto os relacionamentos profissionais quanto o sucesso dos projetos.",
+    desc: "Desenvolver de forma autônoma me proporcionou uma visão abrangentedo mundo web. Essa experiência permitiu a exploração de tecnologias,tendências e práticas de design, melhorando minhas habilidades e oferecendo soluções personalizadas.",
   },
 
  

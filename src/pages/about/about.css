@@ -151,7 +151,7 @@
   padding-left: 26px;
 }
 
-resume__description {
+.resume__description {
   font-size: var(--smaller-font-size);
   line-height: 1.6;
 }

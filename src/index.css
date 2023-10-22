@@ -167,11 +167,12 @@
     top: 20px;
     right: 15px;
   }
+ 
   .home__title{
   text-align: center;
   }
   .about__info {
-    margin: 0px 61px;
+    margin: 0px 42px;
   }
   .nav__link {
     column-gap: 20px;
@@ -208,7 +209,7 @@
   }
   .form__input-group {
     grid-template-columns: 1fr;
-    margin: 0px 12px;
+   
   }
 
   .theme__img {
@@ -241,7 +242,7 @@
   .zap{
     height: 45px;
   }
-  .home__content {
+  /* .home__content {
     margin-block: auto;
     text-align: left;
   }
@@ -250,8 +251,6 @@
   }
   .home__description {
     text-align: justify;
-  }
-  .button{
-    margin-left: 23%;
-  }
+  } */
+ 
 }

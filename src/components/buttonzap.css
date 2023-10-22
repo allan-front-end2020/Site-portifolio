@@ -1,23 +1,15 @@
-.zap{
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    
-    border: none;
-    border-radius: 50%; /* Forma circular */
-    width: 70px;
-    height: 70px;
-    font-size: 20px;
-    cursor: pointer;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Sombra */
-
-
-
+.zap {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border: none;
+  width: 70px;
+  height: 70px;
+  font-size: 20px;
+  cursor: pointer;
 }
 
-.zap__content{
-    display: flex;
-    justify-content: right;
-   
- 
+.zap__content {
+  display: flex;
+  justify-content: right;
 }

@@ -25,7 +25,7 @@ function About() {
               <ul className="info__list grid">
                 <Info />
               </ul>
-              <a href={CV} download="Curriculo-Recode.pdf" className="button">
+              <a href={CV} download="Curriculo-Recode.pdf" className="button" >
                 Download CV
                 <span className="button__icon">
                 <FaArrowRight/>

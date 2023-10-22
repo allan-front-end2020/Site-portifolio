@@ -30,6 +30,7 @@
   transform: translateY(-20px);
   transition: all 0.5s ease;
 }
+
 .portfolio__hover:hover  {
   opacity: 1;
 }
@@ -38,7 +39,8 @@
  /* text do modal */
 .modal__title {
   text-align: center;
-  color: var(--text-white-color);
+  padding: 13px;
+ 
   font-size: var(--h2-font-size);
   letter-spacing: 2px;
   
@@ -91,11 +93,11 @@
 }
 .item__title,
 .item__details {
-    color:var;
+    color:var(--text-white-color);
   font-size: var(--small-font-size);
 }
 .item__details {
-font-weight: var(--weight-600);
+font-weight: var(--weight-400);
 }
 
 

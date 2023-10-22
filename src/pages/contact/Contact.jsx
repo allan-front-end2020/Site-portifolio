@@ -26,8 +26,9 @@ function Contact() {
             <h3 className="contact__title">Principais Contatos</h3>
 
             <p className="contacts__description">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Eligendi, nulla alias, reprehenderit distinctio sed corrupti,
+              Queremos ouvir de você! Se você tiver alguma pergunta, comentário
+              ou sugestão, não hesite em entrar em contato conosco. Nossa equipe
+              está disponível para ajudar e fornecer informações adicionais.
             </p>
 
             <div className="contact__info">
@@ -86,15 +87,13 @@ function Contact() {
                   className="form__control"
                 />
               </div>
-
-              <div className="form__input-div">
-                <textarea
-                  placeholder="Digite seu Texto"
-                  className="form__control textarea"
-                ></textarea>
-              </div>
             </div>
-
+            <div className="form__input-div">
+              <textarea
+                placeholder="Digite seu Texto"
+                className="form__control textarea"
+              ></textarea>
+            </div>
             <button className="button">
               enviar menssagem
               <span className="button__icon contact">
