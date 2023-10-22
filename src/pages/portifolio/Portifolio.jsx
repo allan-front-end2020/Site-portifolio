@@ -8,7 +8,7 @@ function Portifolio() {
   return (
     <section className="portfolio section">
       <h2 className="section__title">
-        Meu <span>Portifilio</span>
+        Meu <span> Portfólio</span>
       </h2>
 
       <div className="portfolio__container container grid">

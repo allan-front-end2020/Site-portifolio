@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import { links } from "../data";
 import { useState } from "react";
 import "./navbar.css";
+import ButtonZap from "./ButtonZap";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -25,10 +26,12 @@ const Navbar = () => {
                     {icon}
                     <h3 className="nav__name">{name}</h3>
                   </NavLink>
+                 
                 </li>
               );
             })}
           </ul>
+          
         </div>
 
         <div className={`${showMenu ? 'nav__toggle animate-toggle ' : 'nav__toggle'}`}

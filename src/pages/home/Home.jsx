@@ -2,39 +2,37 @@ import Profile from "../../assets/allansemfundo.png";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 import "./home.css";
+import ButtonZap from "../../components/ButtonZap";
 
 function Home() {
   return (
     <div>
       <section className="home section grid">
-        <img src={Profile} alt="" className="home__img"  />
+        <img src={Profile} alt="" className="home__img" />
 
         <div className="home__content">
-          <div className="home__data" >
+          <div className="home__data">
             <h1 className="home__title">
-              <span> Allan Tavares</span> FullStack
+              <span> Allan Tavares</span>Web developer
             </h1>
             <p className="home__description">
-              Olá, me chamo Allan Tavares, estudante de Sistemas de Informação pela UFLA. Minhas
-              paixões se dividem entre Front-end e Back-end. No Front-end, crio
-              interfaces atraentes com HTML, CSS e JavaScript, usando
-              tecnologias como React. No Back-end, projeto servidores, bancos de
-              dados e APIs usando  Node.js e Java. Recentemente,
-              desenvolvi uma plataforma de gerenciamento de tarefas que integra
-              essas habilidades. Estou constantemente buscando desafios para
-              aprimorar minhas habilidades e contribuir para soluções
-              inovadoras.
+              Acadêmico de Sistemas de Informação pela UFLA, com foco em
+              Front-end. Tenho experiência na criação de interfaces com React e
+              Vue, entre outras tecnologias. Atualmente, estou aprimorando meu
+              conhecimento em Java Spring para o Back-end. Estou comprometido
+              sempre com meu aprendizado e evolução.
             </p>
-            <Link to="/about" className="button">
-              Leia sobre min
+            <Link to="/Site-portifolio/about" className="button">
+              Saiba Mais
               <span className="button__icon">
                 <FaArrowRight />
               </span>
             </Link>
           </div>
         </div>
-        <div className="color__block">
-          
+        <div className="color__block"></div>
+        <div>
+         
         </div>
       </section>
     </div>

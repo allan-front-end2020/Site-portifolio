@@ -1,7 +1,17 @@
 import React from "react";
-import { FaArrowRight, FaEnvelope,FaPhoneSquare,FaFacebook,FaTwitter,FaYoutube, FaDribbble, FaPhoneSquareAlt, FaFacebookF } from "react-icons/fa";
+import {
+  FaArrowRight,
+  FaEnvelope,
+  FaPhoneSquare,
+  FaFacebook,
+  FaTwitter,
+  FaYoutube,
+  FaDribbble,
+  FaPhoneSquareAlt,
+  FaFacebookF,
+} from "react-icons/fa";
 import "./contact.css";
-import {FiSend} from "react-icons/fi"
+import { FiSend } from "react-icons/fi";
 
 function Contact() {
   return (
@@ -42,16 +52,13 @@ function Contact() {
             </div>
             <div className="contact__socials">
               <a href="" className="contact__social-link">
-                <FaFacebookF className="contact__social-link-svg"/>
+                <FaFacebookF className="contact__social-link-svg" />
               </a>
               <a href="" className="contact__social-link">
                 <FaTwitter className="contact__social-link-svg" />
               </a>
               <a href="" className="contact__social-link">
                 <FaYoutube className="contact__social-link-svg" />
-              </a>
-              <a href="" className="contact__social-link">
-                <FaDribbble className="contact__social-link-svg" />
               </a>
             </div>
           </div>
@@ -79,13 +86,15 @@ function Contact() {
                   className="form__control"
                 />
               </div>
+
+              <div className="form__input-div">
+                <textarea
+                  placeholder="Digite seu Texto"
+                  className="form__control textarea"
+                ></textarea>
+              </div>
             </div>
-            <div className="form__input-div">
-              <textarea
-                placeholder="Digite seu Texto"
-                className="form__control textarea"
-              ></textarea>
-            </div>
+
             <button className="button">
               enviar menssagem
               <span className="button__icon contact">

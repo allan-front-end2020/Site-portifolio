@@ -9,7 +9,7 @@ import {
 } from "react-icons/fa";
 import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
 
-import Work1 from './assets/project-1.jpeg';
+import Work1 from './assets/travel.png';
 import Work2 from './assets/project-2.jpg';
 import Work3 from './assets/project-3.jpeg';
 import Work4 from './assets/project-4.jpeg';
@@ -66,8 +66,8 @@ export const personalInfo = [
 
   {
     id: 2,
-    title: "Last Name : ",
-    description: "Milner",
+    title: "GitFub : ",
+    description: <a href="https://github.com/allan-front-end2020" target="_blank" rel="noopener noreferrer">allan-front-end2020</a>
   },
 
   {
@@ -109,7 +109,7 @@ export const personalInfo = [
   {
     id: 9,
     title: "Linkedin : ",
-    description: "steve.milner",
+    description:  <a href="https://www.linkedin.com/in/allan-tavares-a02070206/" target="_blank" rel="noopener noreferrer">allan-front</a>
   },
 
   {
@@ -249,27 +249,28 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
-    title: 'Photo Editing',
+    title: 'Casa & Raiz Agência de viagem',
     details: [
       {
         icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Photo',
+        title: 'Projeto : ',
+        desc: 'Site de Agência de viagem',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'Projeto pessoal',
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        title: 'Tecnologias: ',
+        desc: 'JS|Bootstrap',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: <a href="https://allan-front-end2020.github.io/Travel_Agency/" target="_blank" rel="noopener noreferrer">allan-front-end2020.github.io/Travel_Agency/</a>,
+        
       },
     ],
   },

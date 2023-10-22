@@ -17,7 +17,7 @@ const getStorageColor = () => {
 const Themes = () => {
   const [show, setShow] = useState(false);
   const [color, setColor] = useState(getStorageColor());
-  const [theme, setTheme] = useState("light-theme");
+  const [theme, setTheme] = useState("dark-theme");
 
  
 
@@ -26,10 +26,10 @@ const Themes = () => {
   };
 
   const toggleTheme = () => {
-    if (theme === "light-theme") {
-      setTheme("dark-theme");
-    } else {
+    if (theme === "dark-theme") {
       setTheme("light-theme");
+    } else {
+      setTheme("dark-theme");
     }
   };
 

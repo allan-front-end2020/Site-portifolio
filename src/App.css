@@ -101,6 +101,8 @@ svg {
 }
 
 a {
+  color: var( --title-color);
+  font-size: 17px;
   text-decoration: none;
 }
 button,

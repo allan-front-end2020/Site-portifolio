@@ -1,7 +1,7 @@
 import React from "react";
 import Info from "../../components/Info";
 import Stats from "../../components/Stats";
-import CV from "../../assets/Recrutamento-curriculo (1).pdf";
+import CV from "../../assets/Curriculo-Recode.pdf";
 import Skills from "../../components/Skills";
 import ResumeIten from "../../components/ResumeIten";
 import { FaArrowRight } from "react-icons/fa";
@@ -25,7 +25,7 @@ function About() {
               <ul className="info__list grid">
                 <Info />
               </ul>
-              <a href="CV" download="" className="button">
+              <a href={CV} download="Curriculo-Recode.pdf" className="button">
                 Download CV
                 <span className="button__icon">
                 <FaArrowRight/>
